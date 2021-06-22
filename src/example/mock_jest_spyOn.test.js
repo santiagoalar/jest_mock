@@ -7,3 +7,7 @@ test("calls math.add", () => {
   // and the spy stores the calls to add
   expect(addMock).toHaveBeenCalledWith(1, 2);
 });
+
+// Crea una función simulada similar a jest.fn 
+//pero también rastrea las llamadas al objeto [nombreMétodo]. 
+//Devuelve una función juest mock.
